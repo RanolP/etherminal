@@ -1,6 +1,6 @@
 # ranolp.sh
 
-A little, cute, fancy shell.
+An useless shell, aims to use it in various messengers.
 
 ## Why rust beta
 
