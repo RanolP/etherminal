@@ -1,0 +1,39 @@
+// basic literals
+number = @{ scientific | decimal | integer }
+    scientific = @{
+        ASCII_DIGIT+ ~ ("." ~ ASCII_DIGIT+)? ~ ^"e" ~ ("+" | "-")? ~ ASCII_DIGIT
+    }
+    decimal = @{
+        ASCII_DIGIT+ ~ "." ~ ASCII_DIGIT+
+    }
+    integer = @{ integer_binary | integer_octal | integer_decimal | integer_hexadecimal }
+        integer_binary = @{ "0b" ~ (ASCII_BIN_DIGIT)+ }
+        integer_octal = @{ "0o" ~ (ASCII_OCT_DIGIT)+ }
+        integer_decimal = @{ ASCII_DIGIT+ }
+        integer_hexadecimal = @{ "0x" ~ ASCII_HEX_DIGIT+ }
+
+string = @{ "\"" ~ (valid_char | escape)* ~ "\"" }
+    valid_char = @{ !("\"" | "\n" | "\\") ~ ANY }
+    escape = @{
+        "\\" ~ (
+            "\"" |
+            "\\" |
+            "x{" ~ ASCII_HEX_DIGIT{4} ~ "}"
+        )
+    }
+
+boolean = @{ "true" | "false" }
+keywords = @{
+    "if" |
+    "else" |
+    "while" |
+    "loop" |
+    "for" |
+    "in" |
+    "let" |
+    "fn" |
+    "match" |
+    "return" |
+    "use" |
+    "enum"
+}

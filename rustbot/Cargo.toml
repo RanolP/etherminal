@@ -1,0 +1,20 @@
+[package]
+name = "rustbot"
+version = "0.1.0"
+authors = ["RanolP <public.ranolp@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.101"
+rustbot-telegram = { path = "./rustbot-telegram" }
+
+[features]
+default = []
+telegram = ["telegram_long_polling", "telegram_webhook", "telegram_formed_api"]
+telegram_long_polling = []
+telegram_webhook = []
+telegram_formed_api = []
+# Can I implement that...?
+discord = []

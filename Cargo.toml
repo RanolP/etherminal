@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "ranolp.sh-runtime",
+    "ranolp.sh-telegram-bot",
+    "ranolp.sh-syntax",
+
+    "rustbot",
+    "rustbot/readymade-builder",
+    "rustbot/readymade-builder/readymade-builder-derive",
+    "rustbot/rustbot-telegram"
+]

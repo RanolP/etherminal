@@ -1,0 +1,14 @@
+[package]
+name = "rustbot-telegram"
+version = "0.1.0"
+authors = ["RanolP <public.ranolp@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.101"
+tide = { git = "https://github.com/rustasync/tide", optional = true }
+rustbot-telegram-raw-api = { path = "./rustbot-telegram-raw-api", optional = true }
+
+[features]
+telegram_long_polling = []
+telegram_webhook = []
