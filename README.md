@@ -16,6 +16,14 @@ The shell is string-ish zone. But it should be a type-safe zone to catch error e
 
 Nowadays, shell is everyday product for programmers. It should be more intuitive.
 
+### No Mutation
+
+That confuses human.
+
+### Isolated
+
+That confuses human.
+
 ## A new terminal
 
 Actuall is not a something new. But strongly integrated with the language.
@@ -39,6 +47,10 @@ Not only text coding but also visual coding.
 ### Sharing
 
 Real-time terminal collaboration, record terminal, etc.
+
+### Notebook
+
+Like jupyter, it should can be runnable in some notebook.
 
 
 ## Research Points
