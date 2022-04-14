@@ -16,6 +16,37 @@ The shell is string-ish zone. But it should be a type-safe zone to catch error e
 
 Nowadays, shell is everyday product for programmers. It should be more intuitive.
 
+## A new terminal
+
+Actuall is not a something new. But strongly integrated with the language.
+
+### Auto-completion
+
+We really need it. [Fig](https://fig.io) and [Warp](https://warp.dev) does.
+
+### Description
+
+Show description of commands, sub-commands, flags.
+
+### Manual
+
+Open man in terminal.
+
+### Node Editing
+
+Not only text coding but also visual coding.
+
+### Sharing
+
+Real-time terminal collaboration, record terminal, etc.
+
+
+## Research Points
+
+- ShellCheck
+- Why Writing Go/Python Scripts for Replacing Bash?
+- [Minigugus/bazx](https://github.com/Minigugus/bazx)
+
 ---
 
 # old readme start from here
