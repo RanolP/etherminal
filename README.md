@@ -62,6 +62,13 @@ Also, should support default plugin like highlight
 - ShellCheck
 - Why Writing Go/Python Scripts for Replacing Bash?
 - [Minigugus/bazx](https://github.com/Minigugus/bazx)
+- Better Calculators
+  - [Numi](https://numi.app/)
+  - [SpeedCrunch](https://speedcrunch.org/)
+  - [NaSC](https://parnold-x.github.io/nasc/)
+  - [NoteCalc](https://bbodi.github.io/notecalc3/)
+  - [Magic Number](https://www.magicnumber.app/)
+  - [Soulver](https://soulver.app/) (it open-sourced its core [here](https://github.com/soulverteam/SoulverCore))
 
 ---
 
