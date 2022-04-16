@@ -52,6 +52,10 @@ Real-time terminal collaboration, record terminal, etc.
 
 Like jupyter, it should can be runnable in some notebook.
 
+## Prompt
+
+Like p10k, easily configurable & pluggable.
+Also, should support default plugin like highlight
 
 ## Research Points
 
