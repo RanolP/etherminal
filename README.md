@@ -72,6 +72,7 @@ Also, should support default plugin like highlight
 - [akavel/up](https://github.com/akavel/up)
 - [z-shell/zi](https://github.com/z-shell/zi)
 - [p-e-w/savage](https://github.com/p-e-w/savage)
+- [clui](https://blog.replit.com/clui)
 
 ---
 
