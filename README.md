@@ -70,6 +70,8 @@ Also, should support default plugin like highlight
   - [Magic Number](https://www.magicnumber.app/)
   - [Soulver](https://soulver.app/) (it open-sourced its core [here](https://github.com/soulverteam/SoulverCore))
 - [akavel/up](https://github.com/akavel/up)
+- [z-shell/zi](https://github.com/z-shell/zi)
+- [p-e-w/savage](https://github.com/p-e-w/savage)
 
 ---
 
