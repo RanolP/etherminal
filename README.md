@@ -69,6 +69,7 @@ Also, should support default plugin like highlight
   - [NoteCalc](https://bbodi.github.io/notecalc3/)
   - [Magic Number](https://www.magicnumber.app/)
   - [Soulver](https://soulver.app/) (it open-sourced its core [here](https://github.com/soulverteam/SoulverCore))
+- [akavel/up](https://github.com/akavel/up)
 
 ---
 
